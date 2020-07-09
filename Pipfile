@@ -35,6 +35,7 @@ asgiref = "*"
 importlib-metadata = "*"
 polyline = "*"
 pid = "*"
+xmltodict = "*"
 
 [dev-packages]
 django-debug-toolbar = "*"
