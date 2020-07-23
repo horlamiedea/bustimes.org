@@ -44,6 +44,14 @@
         <li><a href="{{ vehicle.get_absolute_url }}/edit">Edit</a>{% if pending_edits %}<abbr title="pending edits">*</abbr>{% endif %}</li>
         <li>{{ vehicle.get_flickr_link }}</li>
     </ul>
+{% else %}
+
+    <ul class="tabs">
+        <li><a href="{{ object.get_absolute_url }}">Timetable</a></li>
+        <li><a href="{{ object.get_absolute_url }}#map">Map</a></li>
+        <li>Vehicles</li>
+    </ul>
+
 {% endif %}
 
 {% if date %}

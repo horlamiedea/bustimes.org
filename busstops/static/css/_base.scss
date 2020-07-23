@@ -1189,6 +1189,25 @@ main {
     display: none;
 }
 
+.tabs {
+    border-bottom: 1px solid $border-color;
+    margin: 0 -.5em 1em;
+    overflow: hidden;
+
+    li {
+        border-bottom: .25em solid $border-color;
+        float: left;
+        padding: .5em 1em;
+    }
+
+    a {
+        background: $white;
+        float: left;
+        padding: .5em 1em 1em;
+        margin: -.5em -1em -1em;
+    }
+}
+
 .wide {
     .side-ad {
         @media (min-width: 90em) {
