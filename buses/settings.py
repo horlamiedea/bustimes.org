@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'busstops',
     'bustimes',
     'disruptions',
+    'fares',
     'vehicles',
     'vosa',
     'antispam',
